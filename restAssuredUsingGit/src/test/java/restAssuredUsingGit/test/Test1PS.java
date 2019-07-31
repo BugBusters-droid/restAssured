@@ -4,12 +4,16 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertEquals;
+
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import junit.framework.Assert;
 
 public class Test1PS {
 	
@@ -26,7 +30,9 @@ public class Test1PS {
 		
 		int statuscode=getData.statusCode();
 		System.out.println("Status code is "+statuscode);
-	
+		
+		
+		Assert.assertEquals(201,statuscode );		
 	}
 	
 	//GetCall //To get specific employee detail
