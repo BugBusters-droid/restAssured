@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1456" started-at="2019-07-31T06:50:59Z" finished-at="2019-07-31T06:51:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1456" started-at="2019-07-31T06:50:59Z" finished-at="2019-07-31T06:51:00Z">
+      <class name="restAssuredUsingGit.test.Test1PS">
+        <test-method status="PASS" signature="testCreatingNewEmployee()[pri:0, instance:restAssuredUsingGit.test.Test1PS@32d992b2]" name="testCreatingNewEmployee" duration-ms="1324" started-at="2019-07-31T12:20:59Z" finished-at="2019-07-31T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingNewEmployee -->
+        <test-method status="PASS" signature="testUpdatingAnEmployee()[pri:0, instance:restAssuredUsingGit.test.Test1PS@32d992b2]" name="testUpdatingAnEmployee" duration-ms="39" started-at="2019-07-31T12:21:00Z" finished-at="2019-07-31T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatingAnEmployee -->
+        <test-method status="PASS" signature="testAllEmployees()[pri:0, instance:restAssuredUsingGit.test.Test1PS@32d992b2]" name="testAllEmployees" duration-ms="35" started-at="2019-07-31T12:21:00Z" finished-at="2019-07-31T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllEmployees -->
+        <test-method status="PASS" signature="testSpecificEmployee()[pri:0, instance:restAssuredUsingGit.test.Test1PS@32d992b2]" name="testSpecificEmployee" duration-ms="35" started-at="2019-07-31T12:21:00Z" finished-at="2019-07-31T12:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecificEmployee -->
+      </class> <!-- restAssuredUsingGit.test.Test1PS -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
