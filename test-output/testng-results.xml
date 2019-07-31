@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1341" started-at="2019-07-31T05:29:41Z" finished-at="2019-07-31T05:29:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1341" started-at="2019-07-31T05:29:41Z" finished-at="2019-07-31T05:29:43Z">
+      <class name="restAssuredEmployee.requests.Requests_to_EmployeeApp">
+        <test-method status="PASS" signature="testCreatingNewEmployee()[pri:0, instance:restAssuredEmployee.requests.Requests_to_EmployeeApp@32d992b2]" name="testCreatingNewEmployee" duration-ms="1197" started-at="2019-07-31T10:59:41Z" finished-at="2019-07-31T10:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingNewEmployee -->
+        <test-method status="PASS" signature="testUpdatingAnEmployee()[pri:0, instance:restAssuredEmployee.requests.Requests_to_EmployeeApp@32d992b2]" name="testUpdatingAnEmployee" duration-ms="51" started-at="2019-07-31T10:59:42Z" finished-at="2019-07-31T10:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatingAnEmployee -->
+        <test-method status="PASS" signature="testAllEmployees()[pri:0, instance:restAssuredEmployee.requests.Requests_to_EmployeeApp@32d992b2]" name="testAllEmployees" duration-ms="38" started-at="2019-07-31T10:59:42Z" finished-at="2019-07-31T10:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllEmployees -->
+        <test-method status="PASS" signature="testSpecificEmployee()[pri:0, instance:restAssuredEmployee.requests.Requests_to_EmployeeApp@32d992b2]" name="testSpecificEmployee" duration-ms="35" started-at="2019-07-31T10:59:43Z" finished-at="2019-07-31T10:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecificEmployee -->
+      </class> <!-- restAssuredEmployee.requests.Requests_to_EmployeeApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
