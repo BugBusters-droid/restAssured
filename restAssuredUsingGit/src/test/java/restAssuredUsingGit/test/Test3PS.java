@@ -15,7 +15,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 
-public class Test2PS {
+public class Test3PS {
 	
 	
     //GETCall   //To get all employees detail
