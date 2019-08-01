@@ -23,7 +23,7 @@ public class Test3PS {
 	{
         System.out.println("Generating extent report3");
 		
-		reporter = new ExtentHtmlReporter("extentReport3.html");
+		reporter = new ExtentHtmlReporter("ExtentReport3/extentReport3.html");
 		extents= new ExtentReports();
 		extents.attachReporter(reporter);	
 	}
