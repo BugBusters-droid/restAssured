@@ -32,7 +32,7 @@ public class Test3PS {
 		System.out.println("Status code is "+statuscode);
 		
 		
-		Assert.assertEquals(201,statuscode );		
+		Assert.assertEquals("201",statuscode );		
 	}
 	
 	//GetCall //To get specific employee detail
