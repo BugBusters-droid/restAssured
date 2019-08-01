@@ -5,7 +5,12 @@
     <classes>
       <class name="restAssuredUsingGit.test.Test3PS">
         <methods>
+          <include name="testSpecificEmployee"/>
+          <include name="extentReportBeforeTestSetUp"/>
+          <include name="testCreatingNewEmployee"/>
           <include name="testAllEmployees"/>
+          <include name="extentReportAfterTestSetUp"/>
+          <include name="testUpdatingAnEmployee"/>
         </methods>
       </class> <!-- restAssuredUsingGit.test.Test3PS -->
     </classes>
